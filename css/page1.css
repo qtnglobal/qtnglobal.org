@@ -1,0 +1,172 @@
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 100%;
+  margin: auto;
+}
+
+/* Banner top */
+.ratio-46 {
+  position: relative; width: 100%;
+  padding-bottom: 58.7%;
+}
+.ratio-46 > img {
+  position: absolute; width: 100%;
+  height: 100%; top: 0; left: 0;
+  right: 0; bottom: 0; margin: auto;
+}
+.bg-black7 {
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  width: 100%; height: 100%;
+}
+.ir-banner { position: relative;}
+.ir-banner:after {
+  /*  content: "";
+    width: 100%;    height: 10px;
+    position: absolute;
+    bottom: 0;    left: 0;
+    background: linear-gradient(-60deg,#fff 25%,transparent 25%) center top repeat-x,
+                linear-gradient(-120deg,transparent 75%,#fff 75%) center top repeat-x;
+    background-size: 9px 10px;*/
+}
+.home_top_banner {
+  position: absolute;
+  width: 100%; height: 100%;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+.home_top_banner div {
+  position: relative;
+  top: 43%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  text-align: center;
+}
+.home_top_banner div h3 {
+  color: white;
+  font-size: 33px;
+  width: 100%;
+  margin: 40px auto 20px auto;
+  line-height: 49px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  visibility: visible;
+}
+
+.home_top_banner div h1 {
+  color: white;
+  font-size: 33px;
+  width: 50px;
+  margin: 40px auto 20px auto;
+  line-height: 49px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  visibility: visible;
+  border-top: 1px solid #FFF;
+}
+
+.home_top_banner div h2 {
+  color: white;
+  font-size: 33px;
+  width: 200px;
+  margin: 40px auto 20px auto;
+  line-height: 49px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  visibility: visible;
+  border-bottom: 1px solid #FFF;
+}
+
+.home_top_banner div p {
+  color: white;
+  line-height: 23px;
+  font-size: 28px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  /*padding-bottom: 25px;*/
+}
+
+@media only screen and (max-width: 767px) {
+  .ratio-46 {   padding-bottom: 345px;     }
+  .home_top_banner div h3 {
+    font-size: 4vw; width: 100%;
+  }
+}
+
+@media only screen and (max-width:  380px) {
+  .home_top_banner div h3 {
+    font-size: 15px;
+  }
+}
+
+.carousel-control{
+  position: absolute;
+  top: 45%;
+  left:15px;
+  width: 40px;
+  height: 40px;
+  margin-top: -20px;
+  font-size: 60px;
+  font-weight: 100;
+  line-height: 30px;
+  color: #FFF;
+  text-align: center;
+  background: none repeat scroll 0 0 #222;
+  opacity: 0.5;
+  border-radius: 100%;
+}
+.carousel-control.right {
+  left: auto;
+  right: 15px;
+}
+
+.ir-banner{
+  background-color: rgba(0, 0, 0, 0);
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+.ir-banner:before {
+  top: 0; left: 0;
+  width: 100%; height: 100%; content: " ";
+  position: absolute;
+  background: url(../images/gridtile.png) repeat; }
+#bg-image1{
+  background-image: url(../images/bg1.jpg);
+}
+#bg-image2{
+  background-image: url(../images/bg2.jpg);
+}
+#bg-image3{
+  background-image: url(../images/bg3.jpg);
+}
+
+.star-icon{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  font-size: 60px;
+  font-weight: 100;
+  line-height: 30px;
+  color: #FFF;
+  text-align: center;
+  margin-top: 190px;
+  /*background: none repeat scroll 0 0 #222;*/
+  opacity: 0.5;
+}
+#star-icon-1-left{
+  left:100px;
+}
+#star-icon-1-right{
+  right:115px;
+}
+#star-icon-2-left{
+  left: 250px;
+}
+#star-icon-2-right{
+  right: 265px;
+}
+#star-icon-3-left{
+  left: 250px;
+}
+#star-icon-3-right{
+  right: 265px;
+}
