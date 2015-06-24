@@ -26,7 +26,7 @@
             width: 320,
             cols: 1
         }],
-        defaultFilter: '*',
+        defaultFilter: '.meeting',
         animationType: 'rotateSides',
         gapHorizontal: 10,
         gapVertical: 10,
