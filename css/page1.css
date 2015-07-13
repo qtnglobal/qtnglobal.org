@@ -130,13 +130,13 @@
   position: absolute;
   background: url(../images/gridtile.png) repeat; }
 #bg-image1{
-  background-image: url(../images/bg1.jpg);
+  background-image: url(../images/page1-bg1.jpg);
 }
 #bg-image2{
-  background-image: url(../images/bg2.jpg);
+  background-image: url(../images/page1-bg2.jpg);
 }
 #bg-image3{
-  background-image: url(../images/bg3.jpg);
+  background-image: url(../images/page1-bg3.jpg);
 }
 
 .star-icon{

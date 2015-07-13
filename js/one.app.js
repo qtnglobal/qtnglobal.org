@@ -62,14 +62,6 @@ var App = function () {
             handleHeader();
             handleBootstrap();
         },
-
-        initCounter: function () {
-            jQuery('.counter').counterUp({
-                delay: 10,
-                time: 1000
-            });
-        },
-
         initParallaxBg: function () {
             $(window).load(function(){
                 jQuery('.parallaxBg').parallax("50%", 0.4);

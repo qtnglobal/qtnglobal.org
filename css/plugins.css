@@ -748,7 +748,7 @@
   padding: 100px 0;
   position: relative;
   text-align: center;
-  background: #333 url(../images/19.jpg) 50% 0 fixed;
+  background: #333 url(../images/page5-bg.jpg) 50% 0 fixed;
   background-size: cover;
   background-position: center center;
 }
@@ -812,7 +812,7 @@
 .clients-section {
   padding: 60px 0;
   position: relative;
-  background: #333 url(../images/7.jpg) 50% fixed;
+  background: #333 url(../images/page7-bg.jpg) 50% fixed;
   background-size: cover;
   background-position: center center;
 }

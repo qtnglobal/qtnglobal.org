@@ -3678,7 +3678,7 @@ img.img-center,
   padding: 100px 0px;
   position: relative;
   text-align: center;
-  background: #333 url("../images/mockup.jpg") repeat fixed center center / cover;
+  background: #333 url("../images/page3-bg.jpg") repeat fixed center center / cover;
 }
 .carousel-indicators {
   padding-bottom: 20px;
